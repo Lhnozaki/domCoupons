@@ -32,6 +32,10 @@ priceOne.textContent = "$8.99";
 
 //5. Target the button element with the id of 'discount1' and update the content to Free fries with purchase!
 
+let discOneBtn = document.getElementById("discount1");
+
+discOneBtn.textContent = "Free friends with purchase!";
+
 //6. Create a div element with the id of 'item2' and update the content to Hendrick's Gin. Append this element to William Grand & Sons div.
 
 //7. Create a div element with the id of 'price2' and update the content to $34.99. Append this element to the Hendrick's Gin div.
