@@ -157,5 +157,17 @@ chipBtn.textContent = "33% OFF any 6 pack Budweiser or Bud Light!";
 //div.price = Priceless
 // button.discount = No Discounts. This cutie is worth every penny!
 
+let dogBrand = document.getElementsByClassName("brand")[5];
+dogBrand.textContent = "PetCo";
+
+let dogItem = document.getElementsByClassName("item")[5];
+dogItem.textContent = "Baby Puggy";
+
+let dogPrice = document.getElementsByClassName("price")[5];
+dogPrice.textContent = "Priceless";
+
+let dogBtn = document.getElementsByClassName("discount")[5];
+dogBtn.textContent = "No Discounts. This cutie is worth every penny!";
+
 //Final Boss 
 //Create your own product for the last three sections.
