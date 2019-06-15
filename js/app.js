@@ -8,7 +8,7 @@ var finePrint = 'Coupons VALID from Tuesday 12/4/2018 thru Saturday 6/29/2019. A
 
 let header = document.getElementById("disclaimer");
 
-console.log(header);
+//console.log(header);
 
 header.innerHTML = finePrint;
 
@@ -62,6 +62,10 @@ blockThree.appendChild(discThreeBtn);
 
 
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
+
+let itemFour = document.getElementsByClassName("item")[0];
+itemFour.innerHTML = "Orange Chicken";
+console.log(itemFour);
 
 //10. Create a button element with a class of 'discount' and update the content to Free T-shirt and fortune cookie with purchase! Append this button to Panda Express section.
 
