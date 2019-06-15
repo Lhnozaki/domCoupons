@@ -57,8 +57,8 @@ itemTwo.appendChild(priceTwo);
 let discThreeBtn = document.createElement("button");
 discThreeBtn.id = "discount3";
 discThreeBtn.textContent = "50% OFF Axe body soap!";
-let blockThree = document.getElementsByClassName("block3")[0];
-blockThree.appendChild(discThreeBtn);
+let blockThree = document.getElementsByClassName("block3");
+blockThree[0].appendChild(discThreeBtn);
 
 
 //9. Target the div element with a class of 'item' for the Panda Express section and update the content to Orange Chicken.
@@ -89,7 +89,10 @@ hoodiePrice.textContent = "$10,000.00";
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
-
+let headphones = document.createElement("div");
+headphones.className = "brand";
+headphones.textContent = "HiFiman Shangri-La";
+blockThree[1].appendChild(headphones);
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
