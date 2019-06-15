@@ -171,3 +171,87 @@ dogBtn.textContent = "No Discounts. This cutie is worth every penny!";
 
 //Final Boss 
 //Create your own product for the last three sections.
+
+let image = document.getElementsByTagName("img");
+
+/// first custom item
+
+image[10].src = "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRK1J7yTY0OEIvPFev6o0l7LdEZg-hlDkCZ6yK9X-ulTiSncYkKRlUnY1ffMPq-WocMpu2qK1wohU4dgQGNDeTEOFoWSfWfARXxWtSIXJ7YRnGSBqZpTnmm3w&usqp=CAc";
+
+let teleBrand = document.getElementsByClassName("brand")[6];
+teleBrand.textContent = "Fender";
+
+let teleItem = document.getElementsByClassName("item")[6];
+teleItem.textContent = "Telecaster 97";
+
+let telePrice = document.getElementsByClassName("price")[6];
+telePrice.textContent = "1299.99 USD";
+
+let teleBtn = document.getElementsByClassName("discount")[6];
+teleBtn.textContent = "Free Strap & picks!";
+
+/// define elements
+
+let brand = document.createElement("div");
+brand.className = "brand";
+let item = document.createElement("div");
+item.className = "item";
+let price = document.createElement("div");
+price.className = "price";
+let buttons = document.createElement("button");
+buttons.className = "discount";
+
+/// Second custom item
+
+image[11].src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSmBdC77lcgt6X4NSzszyVQSnO5RsBjKPAk2lDGPhVaXrpC5IC";
+
+let shoes = document.getElementsByClassName("block2")[3];
+shoes.appendChild(brand);
+shoes.appendChild(item);
+shoes.appendChild(price);
+shoes.appendChild(buttons);
+
+let shoeBrand = document.getElementsByClassName("brand")[7];
+shoeBrand.textContent = "Adidas";
+
+let shoeItem = document.getElementsByClassName("item")[7];
+shoeItem.textContent = "Originals AR Sneaker";
+
+let shoePrice = document.getElementsByClassName("price")[7];
+shoePrice.textContent = "150.00 USD";
+
+let shoeBtn = document.getElementsByClassName("discount")[7];
+shoeBtn.textContent = "Free socks";
+
+//console.log(shoes);
+
+/// third custom item
+
+image[12].src = "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcThnRzergfVxEvJ7Fp7iIo5aC8Ux7cqufK67bt4AkCAdiziZwR5alLG6KJbwmBhizS5jOE4B6R2dO27STFVZ81WXbQFX7NkiDjqqgSy3g7Wc3oXV6D9AlPj3g&usqp=CAc";
+
+let brandG = document.createElement("div");
+brandG.className = "brand";
+let itemG = document.createElement("div");
+itemG.className = "item";
+let priceG = document.createElement("div");
+priceG.className = "price";
+let buttonsG = document.createElement("button");
+buttonsG.className = "discount";
+
+let gloves = document.getElementsByClassName("block3")[3];
+gloves.appendChild(brandG);
+gloves.appendChild(itemG);
+gloves.appendChild(priceG);
+gloves.appendChild(buttonsG);
+
+let gloveBrand = document.getElementsByClassName("brand")[8];
+gloveBrand.textContent = "Everlast";
+
+let gloveItem = document.getElementsByClassName("item")[8];
+gloveItem.textContent = "Red Lace N Loop Boxing Gloves";
+
+let glovePrice = document.getElementsByClassName("price")[8];
+glovePrice.textContent = "45.00 USD";
+
+let gloveBtn = document.getElementsByClassName("discount")[8];
+gloveBtn.textContent = "Free case with purchase!";
