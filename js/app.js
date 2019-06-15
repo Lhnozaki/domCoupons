@@ -96,7 +96,17 @@ blockThree[1].appendChild(headphones);
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
+let itemSix = document.createElement("div");
+itemSix.className = "item";
+itemSix.textContent = "Electronstatic Headphones";
+blockThree[1].appendChild(itemSix);
+
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
+
+let priceSix = document.createElement("div");
+priceSix.className = "price";
+priceSix.textContent = "18,000.00";
+blockThree[1].appendChild(priceSix);
 
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
