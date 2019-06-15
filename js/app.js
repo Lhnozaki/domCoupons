@@ -14,7 +14,9 @@ header.innerHTML = finePrint;
 
 //2. Target the div elemenet with the id of 'brand1' and update the content to Nabisco.
 
+let brandOne = document.getElementById("brand1");
 
+brandOne.textContent = "Nabisco";
 
 //3. Target the div element with the id of 'item1' and update the content with Cheeseburger Oreos. 
 
