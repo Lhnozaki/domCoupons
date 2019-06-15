@@ -40,12 +40,17 @@ discOneBtn.textContent = "Free friends with purchase!";
 
 let itemTwo = document.createElement("div");
 let brandTwo = document.getElementById("brand2");
-itemTwo.className = "item2";
-itemTwo.innerText = "Hendrick's Gin";
+itemTwo.id = "item2";
+itemTwo.textContent = "Hendrick's Gin";
 brandTwo.appendChild(itemTwo);
 
 
 //7. Create a div element with the id of 'price2' and update the content to $34.99. Append this element to the Hendrick's Gin div.
+
+let priceTwo = document.createElement("div");
+priceTwo.id = "price2";
+priceTwo.textContent = "$34.99";
+itemTwo.appendChild(priceTwo);
 
 //8. Create a button element with the id of 'discount3' and give it a content of 50% OFF Axe body soap!. Append this element to the appropriate div class 'block3.
 
