@@ -84,7 +84,12 @@ redHoodie.textContent = "Uniqlo";
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
 
+let hoodiePrice = document.getElementsByClassName("price")[1];
+hoodiePrice.textContent = "$10,000.00";
+
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
+
+
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
