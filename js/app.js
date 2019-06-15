@@ -131,7 +131,6 @@ let unicPrice = document.getElementsByClassName("price")[3];
 unicPrice.textContent = "$21.99";
 
 let unicBtn = document.getElementsByClassName("discount")[3];
-unicBtn.className = "discount";
 unicBtn.textContent = "Free knee-high tube socks with purchase!";
 
 //18. For the Doritos, change the contents for each element to the following:
@@ -139,6 +138,18 @@ unicBtn.textContent = "Free knee-high tube socks with purchase!";
 //div.item =  Poppin' Jalapeno Doritos
 //div.price = $7.77
 // button.discount = 33% OFF any 6 pack Budweiser or Bud Light.
+
+let chipBrand = document.getElementsByClassName("brand")[4];
+chipBrand.textContent = "Frito Lay";
+
+let chipItem = document.getElementsByClassName("item")[4];
+chipItem.textContent = "Poppin' Jalapeno Doritos";
+
+let chipPrice = document.getElementsByClassName("price")[4];
+chipPrice.textContent = "$7.77";
+
+let chipBtn = document.getElementsByClassName("discount")[4];
+chipBtn.textContent = "33% OFF any 6 pack Budweiser or Bud Light!";
 
 //19. For the Pug, change the contents for each element to the following:
 //div.brand = Any Dog Breeder
