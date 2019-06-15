@@ -121,6 +121,19 @@ blockThree[1].appendChild(btnSix);
 //div.price = $21.99
 // button.discount = Free knee-high tube socks with purchase!
 
+let unicBrand = document.getElementsByClassName("brand")[3];
+unicBrand.textContent = "H&M";
+
+let unicItem = document.getElementsByClassName("item")[3];
+unicItem.textContent = "Unicorn-Head Slippers";
+
+let unicPrice = document.getElementsByClassName("price")[3];
+unicPrice.textContent = "$21.99";
+
+let unicBtn = document.getElementsByClassName("discount")[3];
+unicBtn.className = "discount";
+unicBtn.textContent = "Free knee-high tube socks with purchase!";
+
 //18. For the Doritos, change the contents for each element to the following:
 //div.brand = Frito Lay
 //div.item =  Poppin' Jalapeno Doritos
