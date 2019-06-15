@@ -26,6 +26,10 @@ itemOne.textContent = "Cheeseburger Oreos";
 
 //4. Target the div element with the id of 'price1' and update the content to $8.99.
 
+let priceOne = document.getElementById("price1");
+
+priceOne.textContent = "$8.99";
+
 //5. Target the button element with the id of 'discount1' and update the content to Free fries with purchase!
 
 //6. Create a div element with the id of 'item2' and update the content to Hendrick's Gin. Append this element to William Grand & Sons div.
